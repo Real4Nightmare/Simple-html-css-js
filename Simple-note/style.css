@@ -27,3 +27,18 @@ h1 {
   right: 15px;
   cursor:pointer;
 }
+ul{
+  list-style: none;
+  padding: 5px;
+  display: flex;
+}
+li{
+  padding: 10px;
+  
+}
+a{
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+}
