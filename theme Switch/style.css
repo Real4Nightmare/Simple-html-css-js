@@ -1,0 +1,59 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+:root{
+    font-weight: bold;
+}
+a{font-weight: bold;}
+i{
+    font-size: 25px;
+    cursor: pointer;
+}
+body {
+  --primary-color: black;
+  --secondery-color: red;
+  --text-color: yellow;
+  background-color: var(--text-color);
+}
+
+body.dark-theme {
+  --primary-color: #999; /* dark gray */
+  --secondery-color: #666; /* medium gray */
+  --text-color: green; /* white */
+}
+
+
+header {
+  background-color: var(--primary-color);
+  color: var(--secondery-color);
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav ul li {
+  margin-right: 20px;
+}
+
+header nav a {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+header nav a:hover {
+  color: var(--text-color);
+}
+
+#icon {
+  width: 30px;
+}
